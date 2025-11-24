@@ -3,7 +3,7 @@
 import { Metadata } from "next";
 import { ReactNode } from "react";
 
-export const websiteURL: string = "http://pdf-to-tiff-converter.com";
+export const websiteURL: string = "https://www.pdf-to-tiff-converter.com";
 export const headerCompanyName: string = "FrameworkTeam";
 export const companyName: string = "FrameworkTeam Softwares";
 export const email: string = "support@frameworkteam.com";
