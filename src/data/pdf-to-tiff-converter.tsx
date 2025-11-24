@@ -124,7 +124,7 @@ export const PDFtoTIFFConverter: portfolioItem = {
       title: `Free ${productTitles.PDFtoTIFFConverter} for Windows | Fast & Secure PDF to TIFF Tool`,
       description:
         "Easily convert PDF files to TIFF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, and customizable settings to ensure top-quality image output.",
-      url: `https://www.frameworkteam.com/${ProductIDs.PDFtoTIFFConverter}.html`,
+      url: productWebsites.PDFtoTIFFConverter,
       siteName: `${productTitles.PDFtoTIFFConverter} for Windows`,
       images: [
         {
@@ -139,6 +139,18 @@ export const PDFtoTIFFConverter: portfolioItem = {
       ],
       locale: "en_US",
       type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Free ${productTitles.PDFtoTIFFConverter} for Windows | Fast & Secure PDF to TIFF Tool`,
+      description:
+        "Easily convert PDF files to TIFF with our fast and free Windows software. Enjoy a user-friendly interface, batch processing, and customizable settings to ensure top-quality image output.",
+      images: [
+        cloudinaryLoader({
+          src: productImages.PDFtoTIFFConverter.imgName,
+          width: productImages.PDFtoTIFFConverter.width,
+        }),
+      ],
     },
   },
 };
